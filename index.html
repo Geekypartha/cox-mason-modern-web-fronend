@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="nav">
+        <div id="nleft">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div id="nright">
+            <h4 class="home">Home</h4>
+            <h4 class="work">Work</h4>
+            <h4 class="studio">Studio</h4>
+            <h4 class="contact">Contact</h4>
+        </div>
+    </div>
+    <div id="purple"></div>
+
+   
+    <div id="main">
+        <div class="page1">
+            <h1>Digitally crafted</h1>
+            <h2>experiences</h2>
+            <video src="images/1st video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="page2">
+            <h2>We are Cox Mason,</h2>
+            <div id="page2-container">
+                <div class="page2-left">
+                    
+                    <h2>
+                        A CREATIVE
+                        COLLECTIVE
+                        MADE TO UNLOCK
+                        YOUR BRAND'S
+                        POTENTIAL
+                    </h2>
+                </div>
+                <div class="page2-right">
+                    <P>We weave together bold strategy and creative execution to produce thought-provoking digital experiences. We take a highly experiences approach to delivering branding, web design, and content marketing solutions. Born in the DC area-now serving clients worldwide.</P>
+                    <button>About Us</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="page3">
+            <h1>Selected work</h1>
+            <div id="page3-part1">
+                <img src="images/city.jpg" alt="">
+                <video src="images/Sunburn Arena with Martin Garrix - Mumbai.mp4" autoplay loop muted></video>
+            </div>
+            <div id="page3-part2">
+                <video src="images/Coca Cola Commercial ad Product Shoot .mp4" autoplay muted loop></video>
+                <video src="images/COFFEE COMMERCIAL ADVERTISEMENT - 7 miles roasters coffee beans ad.mp4" autoplay muted loop></video>
+            </div>
+                
+
+        </div>
+        <div class="page4">
+            <div class="elem">
+                <img src="images/strtegy.jpg" alt="">
+                <div class="text-div">
+                    <h1>Strategy</h1>
+                    <h1>Strategy</h1>
+                </div>
+                <img src="images/strategy2.jpg" alt="">
+            </div>
+            <div class="elem">
+                <img src="images/identity1.jpg" alt="">
+                <div class="text-div">
+                    <h1>Identity</h1>
+                    <h1>Identity</h1>
+                </div>
+                <img src="images/identy2.jpg" alt="">
+            </div>
+            <div class="elem">
+                <img id="eximg1" src="images/Experience1.jpg" alt="">
+                <div class="text-div">
+                    <h1>Experience</h1>
+                    <h1>Experience</h1>
+                </div>
+                <img id="eximg2" src="images/experience2].jpg" alt="">
+            </div>
+        </div>
+        <div class="page5">
+            <h2>Mention Clients</h2>
+            <div class="box" data-image="https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGxvZ298ZW58MHx8MHx8fDA%3D">
+                <h3>Apple</h3>
+                <h4>2019</h4>
+            </div>
+            <div class="box" data-image="https://images.unsplash.com/photo-1500509356004-46b18c90ea71?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ5fHxhbWF6b24lMjBsb2dvfGVufDB8fDB8fHww">
+                <h3>Porsche</h3>
+                <h4>2019</h4>
+            </div>
+            <div class="box" data-image="https://images.unsplash.com/photo-1618588429012-0559f1cbc5aa?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcGFueSUyMG5hbWV8ZW58MHx8MHx8fDA%3D">
+                <h3>CAT</h3>
+                <h4>2021</h4>
+            </div>
+            <div class="box" data-image="https://images.unsplash.com/photo-1616093098223-c32c8144d8ca?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHRvcCUyME1OQyUyMGNvbXBhbnklMjBsb2dvfGVufDB8fDB8fHww">
+                <h3>Mcdonald</h3>
+                <h4>2022</h4>
+            </div>
+            <div class="box" data-image="https://images.unsplash.com/photo-1625138644438-47f3b3c66880?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHRvcCUyME1OQyUyMGNvbXBhbnklMjBsb2dvfGVufDB8fDB8fHww">
+                <h3>Coca-Cola</h3>
+                <h4>2022</h4>
+            </div>
+        </div>
+        <footer>
+            Created with ❤ by Geekypartha
+        </footer>
+
+    </div>
+    
+</body>
+</html>
